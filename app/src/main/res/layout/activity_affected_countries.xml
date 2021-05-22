@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383838"
+    tools:context=".AffectedCountries">
+
+<!--  for the search box  -->
+    <!--   made as a resource file for adding the box/ border type shape for the search box    "edittext shadow" -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/editSearch"
+        android:layout_margin="10dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="Search"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittext_shadow"
+        android:drawableLeft="@drawable/ic_baseline_search_24"/>
+
+
+
+<!-- for displaying the country names   -->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/lsitView"
+        android:layout_below="@+id/editSearch"
+        android:layout_margin="10dp"/>
+
+<!--  using arc loader to display the loading animation  -->
+    <com.leo.simplearcloader.SimpleArcLoader
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/loader"
+        app:arc_style="complete_arc"/>
+
+
+</RelativeLayout>
