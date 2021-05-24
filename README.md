@@ -1,7 +1,7 @@
 # Android-Covid-Tracker-App
-It is a Covid Tracker App which helps you to track the covid cases All around the world . A collective data / Global data of covid is shown on the home page which includes a PIE chart which shows (Total cases, Recovered cases, Deaths , Active Cases and other deatails are also present below the chart such as (Today Cases ,Critical cases , Total Cases , Total Recovered Cases , Total Deaths , Today Deaths, Affected Countries) .
-- Also added a list of ALL the affected covid countries with there Flag ! So user can search the information of any desired country which they want.
-- Added pretty decent UI which makes this app more user friendly !!
+It is a Covid Tracker App that helps you to track the covid cases All around the world. A collective data / Global data of covid is shown on the home page which includes a PIE chart which shows (Total cases, Recovered cases, Deaths, Active Cases and other details are also present below the chart such as (Today Cases, Critical cases, Total Cases, Total Recovered Cases, Total Deaths, Today Deaths, Affected Countries).
+- Also added a list of ALL the affected covid countries with their Flag! So user can search the information of any desired country which they want.
+- Added pretty decent UI which makes this app more user-friendly!!
 
 
 ## Tech Stack used :
